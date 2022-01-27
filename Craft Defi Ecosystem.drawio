@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T16:36:12.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="sKZt-IiOx0peVGEypn9_" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-27T16:37:10.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="dMjUy2NUuEIEOOYNpUWG" version="16.4.3" type="github">
   <diagram id="BCGOsR4cse_JTtNBRZEb" name="Page-1">
     <mxGraphModel dx="3080" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,7 +99,7 @@
           <mxGeometry x="-815" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2Sj0Tr9tP26c6a03O4qe-21" value="Stake pool" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="-1600" y="240" width="120" height="70" as="geometry" />
+          <mxGeometry x="-1070" y="164" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2Sj0Tr9tP26c6a03O4qe-50" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;" parent="1" source="2Sj0Tr9tP26c6a03O4qe-40" target="2Sj0Tr9tP26c6a03O4qe-44" edge="1">
           <mxGeometry relative="1" as="geometry">
