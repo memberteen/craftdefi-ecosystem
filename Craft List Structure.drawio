@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T09:04:49.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="omRLwM_FigmG02N6p6cN" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-01T08:24:07.490Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="tUmCrqWY4HUhWiSgWsMA" version="16.4.3" type="github">
   <diagram id="MgMawF2ewCmIdZ4En5Lc" name="Page-1">
-    <mxGraphModel dx="15480" dy="11210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="12145" dy="9090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,24 +99,6 @@
         </mxCell>
         <mxCell id="RqYwaNOaAykxxJKkyd5C-55" value="&lt;font style=&quot;font-size: 390px&quot;&gt;????????&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=42;strokeWidth=13;rotation=-45;" parent="1" vertex="1">
           <mxGeometry x="-4710" y="-3850" width="2760" height="640" as="geometry" />
-        </mxCell>
-        <mxCell id="bGGT44jcGLLcHXXhtZyl-1" value="&lt;font style=&quot;font-size: 25px&quot;&gt;ไม้แผ่น&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=4;fillColor=default;opacity=20;" parent="1" vertex="1">
-          <mxGeometry x="933.54" y="40" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bGGT44jcGLLcHXXhtZyl-2" value="&lt;font style=&quot;font-size: 25px&quot;&gt;แผ่นหินอ่อน&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=4;fillColor=default;opacity=20;" parent="1" vertex="1">
-          <mxGeometry x="769.79" y="40" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bGGT44jcGLLcHXXhtZyl-3" value="&lt;font style=&quot;font-size: 25px&quot;&gt;เก้าอี้&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=4;fillColor=default;opacity=20;" parent="1" vertex="1">
-          <mxGeometry x="879.79" y="-140" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bGGT44jcGLLcHXXhtZyl-4" value="&lt;font style=&quot;font-size: 25px&quot;&gt;ไม้สักแผ่น&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=4;fillColor=default;opacity=20;" parent="1" vertex="1">
-          <mxGeometry x="940" y="-1080" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bGGT44jcGLLcHXXhtZyl-5" value="&lt;span style=&quot;font-size: 25px&quot;&gt;เก้าอี้&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=4;fillColor=default;opacity=20;" parent="1" vertex="1">
-          <mxGeometry x="779.5799999999999" y="-1220" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bGGT44jcGLLcHXXhtZyl-6" value="&lt;span style=&quot;font-size: 25px&quot;&gt;????&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=4;fillColor=default;opacity=20;" parent="1" vertex="1">
-          <mxGeometry x="720" y="-320" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
