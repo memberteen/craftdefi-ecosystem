@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T15:53:03.874Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="gNsP0gtcozSPWwABY79i" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-20T10:01:59.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="xZY7PDHrbGwCOSsD5dcQ" version="18.0.6" type="github">
   <diagram id="ZeNOe9PrIsQSqItN8kcK" name="Page-1">
-    <mxGraphModel dx="3058" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3201" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -273,10 +273,10 @@
         <mxCell id="3xw77zuxon-itHDHkJrM-64" value="PaymentContract:ERC2771" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#a0522d;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-920" y="-800" width="425" height="294" as="geometry" />
         </mxCell>
-        <mxCell id="3xw77zuxon-itHDHkJrM-66" value="+Payment(&#xa;    bytes32 indexed payment_signature: ObjectID&lt;PaymentTransaction&gt;,&#xa;    address indexed user,&#xa;    address[] resources,&#xa;    uint256[]  resource_amounts,&#xa;    address[] materials,&#xa;    uint256[]  material_amounts&#xa;): method" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="3xw77zuxon-itHDHkJrM-64" vertex="1">
+        <mxCell id="3xw77zuxon-itHDHkJrM-66" value="+Payment(&#xa;    bytes32 indexed payment_signature: ObjectID&lt;PaymentTransaction&gt;,&#xa;    address indexed user,&#xa;    address[] resources,&#xa;    uint256[]  resource_amounts,&#xa;    address[] materials,&#xa;    uint256[]  material_amounts&#xa;): Context2771" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="3xw77zuxon-itHDHkJrM-64" vertex="1">
           <mxGeometry y="26" width="425" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="YI_k24LvPZSHAzhyWT9z-5" value="+Mint(&#xa;    bytes32 indexed payment_signature: ObjectID&lt;PaymentTransaction&gt;,&#xa;    address indexed user,&#xa;    address[] resources,&#xa;    uint256[]  resource_amounts,&#xa;    address[] materials,&#xa;    uint256[]  material_amounts&#xa;): method" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="3xw77zuxon-itHDHkJrM-64">
+        <mxCell id="YI_k24LvPZSHAzhyWT9z-5" value="+Mint(&#xa;    bytes32 indexed payment_signature: ObjectID&lt;PaymentTransaction&gt;,&#xa;    address indexed user,&#xa;    address[] resources,&#xa;    uint256[]  resource_amounts,&#xa;    address[] materials,&#xa;    uint256[]  material_amounts&#xa;): method" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="3xw77zuxon-itHDHkJrM-64" vertex="1">
           <mxGeometry y="160" width="425" height="134" as="geometry" />
         </mxCell>
         <mxCell id="3xw77zuxon-itHDHkJrM-72" value="Payment Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontStyle=1;fontSize=15;" parent="1" vertex="1">
@@ -457,15 +457,6 @@
         </mxCell>
         <mxCell id="3xw77zuxon-itHDHkJrM-153" value="Mining&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-746.5" y="569.5" width="111" height="48.5" as="geometry" />
-        </mxCell>
-        <mxCell id="YI_k24LvPZSHAzhyWT9z-1" value="m1: 2&lt;br&gt;m2: 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1320" y="-770" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YI_k24LvPZSHAzhyWT9z-2" value="storage&lt;br&gt;m1: 1.5&lt;br&gt;m2: 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1260" y="-690" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YI_k24LvPZSHAzhyWT9z-3" value="storage&lt;br&gt;m1: 0.5&lt;br&gt;m2: 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1410" y="-690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
