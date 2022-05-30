@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T08:23:23.566Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="j1-A6wS9_V4oi7cw07do" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-30T08:23:38.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="k1-SQoWBh8Uwi-0tK6ZV" version="18.1.1" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
     <mxGraphModel dx="7451" dy="6249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -3490,9 +3490,6 @@
         </mxCell>
         <mxCell id="c4qvs2YjDzn6GjIhDprr-260" value="+ ask         = &quot;ask&quot;" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="c4qvs2YjDzn6GjIhDprr-258" vertex="1">
           <mxGeometry y="52" width="260" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="c4qvs2YjDzn6GjIhDprr-269" value="&lt;font size=&quot;1&quot; style=&quot;line-height: 0.8&quot;&gt;ชื่อ จับกบ&lt;br&gt;จับกบ 100 ตัว&lt;br&gt;0/100&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=44;" parent="1" vertex="1">
-          <mxGeometry x="-210" y="-3910" width="380" height="170" as="geometry" />
         </mxCell>
         <mxCell id="c4qvs2YjDzn6GjIhDprr-270" value="Mission" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-590" y="-4250" width="240" height="312" as="geometry" />
