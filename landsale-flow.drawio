@@ -1,12 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T13:56:52.764Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="1h_ENXOunsOr3CXN4ktI" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-15T13:59:40.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="l373MgmWh2A-8HqNMZBC" version="20.0.1" type="github">
   <diagram id="L_UoT_DxCkrW-5KhUJgU" name="Page-1">
-    <mxGraphModel dx="1678" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pCvEN7_FgobJJsHZdbzq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="pCvEN7_FgobJJsHZdbzq-2" target="pCvEN7_FgobJJsHZdbzq-18">
+        <mxCell id="pCvEN7_FgobJJsHZdbzq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="pCvEN7_FgobJJsHZdbzq-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="305.14285714285734" y="970" as="targetPoint" />
+            <mxPoint x="305" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pCvEN7_FgobJJsHZdbzq-2" value="Land NFT&lt;br&gt;Contract" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
@@ -40,11 +40,6 @@
         <mxCell id="pCvEN7_FgobJJsHZdbzq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="pCvEN7_FgobJJsHZdbzq-11" target="pCvEN7_FgobJJsHZdbzq-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pCvEN7_FgobJJsHZdbzq-15" value="Call RPC Node" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pCvEN7_FgobJJsHZdbzq-14">
-          <mxGeometry x="0.025" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pCvEN7_FgobJJsHZdbzq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="pCvEN7_FgobJJsHZdbzq-11" target="pCvEN7_FgobJJsHZdbzq-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -54,8 +49,9 @@
         <mxCell id="pCvEN7_FgobJJsHZdbzq-13" value="get map" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="245" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pCvEN7_FgobJJsHZdbzq-19" value="subscribe" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="pCvEN7_FgobJJsHZdbzq-16" target="pCvEN7_FgobJJsHZdbzq-18">
+        <mxCell id="pCvEN7_FgobJJsHZdbzq-19" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;lookup transfer log&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="pCvEN7_FgobJJsHZdbzq-16">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="440" as="targetPoint" />
             <Array as="points">
               <mxPoint x="425" y="440" />
               <mxPoint x="425" y="440" />
@@ -65,16 +61,18 @@
         <mxCell id="pCvEN7_FgobJJsHZdbzq-16" value="event log subscribe&lt;br&gt;(transfer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="485" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pCvEN7_FgobJJsHZdbzq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="pCvEN7_FgobJJsHZdbzq-18" target="pCvEN7_FgobJJsHZdbzq-20">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="pCvEN7_FgobJJsHZdbzq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" target="pCvEN7_FgobJJsHZdbzq-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="305" y="550" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pCvEN7_FgobJJsHZdbzq-23" value="look up zero address transfer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pCvEN7_FgobJJsHZdbzq-21">
           <mxGeometry x="0.102" relative="1" as="geometry">
             <mxPoint x="17" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="pCvEN7_FgobJJsHZdbzq-18" value="lookup transfer log" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="245" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pCvEN7_FgobJJsHZdbzq-20" value="update land purchased.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="485" y="520" width="120" height="60" as="geometry" />
