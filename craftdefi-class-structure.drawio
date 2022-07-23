@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T09:03:49.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7NInWx3qftfDr6ouwHys" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-23T17:13:04.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ZUml860J9Nyw1BZAReMv" version="20.1.1" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="8439" dy="6599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="8110" dy="6099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4220,7 +4220,7 @@
         <mxCell id="hb6JE_W8AbLmyY4ANhYr-3" value="+ areaImages: []ObjectID&lt;XFile&gt;" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="TfSNedNeneGFjnlPRXvd-3">
           <mxGeometry y="104" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hb6JE_W8AbLmyY4ANhYr-2" value="+ order: int" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="TfSNedNeneGFjnlPRXvd-3">
+        <mxCell id="hb6JE_W8AbLmyY4ANhYr-2" value="+ index: int" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="TfSNedNeneGFjnlPRXvd-3">
           <mxGeometry y="130" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TfSNedNeneGFjnlPRXvd-6" value="+ isAvailable: bool" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="TfSNedNeneGFjnlPRXvd-3" vertex="1">
