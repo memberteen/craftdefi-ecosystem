@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-12T22:08:47.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="v54S6pb96Lafnq-A_86o" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-12T22:10:09.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="C-vC48mNANmaWwz84EWO" version="20.2.3" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="8567" dy="5955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="8835" dy="6088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4908,7 +4908,7 @@
           <mxGeometry y="104" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NBg4TM5Fdeh_CKciyJGs-6" value="To Do List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#cce5ff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="3400" y="-1286" width="420" height="182" as="geometry" />
+          <mxGeometry x="3420" y="-1453" width="420" height="182" as="geometry" />
         </mxCell>
         <mxCell id="NBg4TM5Fdeh_CKciyJGs-7" value="ทำ transaction content proceed duration" style="text;strokeColor=#82b366;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;fontStyle=4" parent="NBg4TM5Fdeh_CKciyJGs-6" vertex="1">
           <mxGeometry y="26" width="420" height="26" as="geometry" />
@@ -5128,7 +5128,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zE5jJygX4ydAp_yVo81u-96" value="Warning" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="-1286" width="420" height="260" as="geometry" />
+          <mxGeometry x="3880" y="-1455" width="420" height="364" as="geometry" />
         </mxCell>
         <mxCell id="zE5jJygX4ydAp_yVo81u-98" value="Equipment" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zE5jJygX4ydAp_yVo81u-96">
           <mxGeometry y="26" width="420" height="26" as="geometry" />
@@ -5156,6 +5156,18 @@
         </mxCell>
         <mxCell id="zE5jJygX4ydAp_yVo81u-107" value="Chat" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zE5jJygX4ydAp_yVo81u-96">
           <mxGeometry y="234" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zE5jJygX4ydAp_yVo81u-108" value="Recovery" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zE5jJygX4ydAp_yVo81u-96">
+          <mxGeometry y="260" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zE5jJygX4ydAp_yVo81u-109" value="Mining" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zE5jJygX4ydAp_yVo81u-96">
+          <mxGeometry y="286" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zE5jJygX4ydAp_yVo81u-110" value="Disaster" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zE5jJygX4ydAp_yVo81u-96">
+          <mxGeometry y="312" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zE5jJygX4ydAp_yVo81u-111" value="Cities" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zE5jJygX4ydAp_yVo81u-96">
+          <mxGeometry y="338" width="420" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
