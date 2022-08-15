@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T10:27:21.388Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="kktQU8hjQ5lrD_ZJhkSU" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T10:34:23.825Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9IOzmuQIL_JVWT02Kx3i" version="20.2.3" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="8666" dy="6044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="9428" dy="6453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4904,7 +4904,7 @@
         <mxCell id="zE5jJygX4ydAp_yVo81u-94" value="ทำ user state เช่น mission, quest,npc, wallet,achivementBillboard" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;fillColor=#d5e8d4;strokeColor=#82b366;" parent="NBg4TM5Fdeh_CKciyJGs-6" vertex="1">
           <mxGeometry y="104" width="420" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zE5jJygX4ydAp_yVo81u-95" value="ทำ user state เช่น userBuildingBlueprint, userBuildingContentTransaction" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="NBg4TM5Fdeh_CKciyJGs-6" vertex="1">
+        <mxCell id="zE5jJygX4ydAp_yVo81u-95" value="ทำ user state เช่น userBuildingBlueprint, userBuildingContentTransaction" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;fillColor=#d5e8d4;strokeColor=#82b366;" parent="NBg4TM5Fdeh_CKciyJGs-6" vertex="1">
           <mxGeometry y="130" width="420" height="26" as="geometry" />
         </mxCell>
         <mxCell id="CDVByA6ChOzaJjAIiBHo-3" value="craft house เพิ่ม list การ craft" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="NBg4TM5Fdeh_CKciyJGs-6">
@@ -4932,7 +4932,7 @@
           <mxGeometry x="-2500" y="-1063.33" width="380" height="343.33" as="geometry" />
         </mxCell>
         <mxCell id="zE5jJygX4ydAp_yVo81u-11" value="UserBuildingContent&#xa;Transaction" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-2425" y="-989" width="255" height="234" as="geometry" />
+          <mxGeometry x="-2425" y="-989" width="255" height="208" as="geometry" />
         </mxCell>
         <mxCell id="zE5jJygX4ydAp_yVo81u-12" value="+ id : ObjectID" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="zE5jJygX4ydAp_yVo81u-11" vertex="1">
           <mxGeometry y="26" width="255" height="26" as="geometry" />
@@ -4946,17 +4946,14 @@
         <mxCell id="zE5jJygX4ydAp_yVo81u-15" value="+ cost: []ProductMeta" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="zE5jJygX4ydAp_yVo81u-11" vertex="1">
           <mxGeometry y="104" width="255" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zE5jJygX4ydAp_yVo81u-88" value="+ costContent: CostContent" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="zE5jJygX4ydAp_yVo81u-11" vertex="1">
+        <mxCell id="zE5jJygX4ydAp_yVo81u-16" value="+ startProceedOn: DateTime" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="zE5jJygX4ydAp_yVo81u-11" vertex="1">
           <mxGeometry y="130" width="255" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zE5jJygX4ydAp_yVo81u-16" value="+ startProceedOn: DateTime" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="zE5jJygX4ydAp_yVo81u-11" vertex="1">
+        <mxCell id="zE5jJygX4ydAp_yVo81u-17" value="+ endProceedOn: DateTime" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="zE5jJygX4ydAp_yVo81u-11" vertex="1">
           <mxGeometry y="156" width="255" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zE5jJygX4ydAp_yVo81u-17" value="+ endProceedOn: DateTime" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="zE5jJygX4ydAp_yVo81u-11" vertex="1">
-          <mxGeometry y="182" width="255" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="zE5jJygX4ydAp_yVo81u-87" value="+ buildingContentMeta: BuildingContentMeta" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="zE5jJygX4ydAp_yVo81u-11" vertex="1">
-          <mxGeometry y="208" width="255" height="26" as="geometry" />
+          <mxGeometry y="182" width="255" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zE5jJygX4ydAp_yVo81u-8" value="&lt;font style=&quot;font-size: 37px;&quot;&gt;UserBuilding&lt;br&gt;Content Transaction&lt;/font&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontFamily=Comic Sans MS;fontSize=37;movable=1;gradientColor=#b3b3b3;" parent="1" vertex="1">
           <mxGeometry x="-2472" y="-1126" width="324" height="126" as="geometry" />
