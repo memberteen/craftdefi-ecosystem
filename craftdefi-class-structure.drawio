@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-16T09:29:47.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="nWBNhXB6I4rcvFpIUndO" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-16T10:42:14.010Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="K2WCDZz1-oI5Ds0RAMPI" version="20.2.3" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="8788" dy="6110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="8631" dy="6026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5081,7 +5081,7 @@
         <mxCell id="zE5jJygX4ydAp_yVo81u-96" value="Warning" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="3880" y="-1455" width="420" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="CDVByA6ChOzaJjAIiBHo-30" value="Item Detail (Tools,Equipment,Food,Decoration)" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
+        <mxCell id="CDVByA6ChOzaJjAIiBHo-30" value="Item Detail (Tools, Food, Equipment, Decoration)" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;fillColor=#d5e8d4;strokeColor=#82b366;" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
           <mxGeometry y="26" width="420" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zE5jJygX4ydAp_yVo81u-100" value="Worker (ค่าความหิว -&gt; เพิ่มจาก food ลดจากทำงาน (Time), skill())" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;fillColor=#d5e8d4;strokeColor=#82b366;" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
@@ -5090,13 +5090,13 @@
         <mxCell id="CDVByA6ChOzaJjAIiBHo-28" value="Hire ()" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;fillColor=#d5e8d4;strokeColor=#82b366;" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
           <mxGeometry y="78" width="420" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mDaOjsrQItgkXir7TWhE-1" value="Placement" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zE5jJygX4ydAp_yVo81u-96">
+        <mxCell id="zE5jJygX4ydAp_yVo81u-101" value="Tycoon" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
           <mxGeometry y="104" width="420" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zE5jJygX4ydAp_yVo81u-111" value="Cities" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
+        <mxCell id="mDaOjsrQItgkXir7TWhE-1" value="Placement" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zE5jJygX4ydAp_yVo81u-96">
           <mxGeometry y="130" width="420" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zE5jJygX4ydAp_yVo81u-101" value="Tycoon" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
+        <mxCell id="zE5jJygX4ydAp_yVo81u-111" value="Cities" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
           <mxGeometry y="156" width="420" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zE5jJygX4ydAp_yVo81u-99" value="Character" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
@@ -5175,16 +5175,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mDaOjsrQItgkXir7TWhE-2" value="Worker (ค่าความหิว -&gt; เพิ่มจาก food ลดจากทำงาน (Time), Time ถูกคิดจาก (Power ของ Building and Worker vs Dubilarity of item)&#xa;Stat&#xa;ค่า Rarity     &#xa;ค่า ความหิว  &#xa;ค่า Power    &#xa;ค่า ความถนัด CraftCategory (food ถนัด, equipment ถนัด) ประกอบไปด้วย (Power bonus relative with Success rate bonus)&#xa;skill" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="3850" y="-1883" width="810" height="128" as="geometry" />
+          <mxGeometry x="3840" y="-1737.5" width="810" height="128" as="geometry" />
         </mxCell>
         <mxCell id="mDaOjsrQItgkXir7TWhE-3" value="Hire&#xa;Period  hire: day by day หมด สัญญาสามารถต่อได้ ภายใน 12 ชั่วโมง&#xa;hire from : Career station or คนที่เดินไปเดินมา&#xa;" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="3850" y="-1774" width="810" height="128" as="geometry" />
+          <mxGeometry x="3840" y="-1628.5" width="810" height="128" as="geometry" />
         </mxCell>
         <mxCell id="mDaOjsrQItgkXir7TWhE-4" value="Job DB&lt;br&gt;- Random worker relative with rarity&lt;br&gt;- Max count of board is 5&lt;br&gt;- Reset board 24 hour&lt;br&gt;- แต่ละ city มี job db ไม่เหมือนกัน" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3410" y="-1883" width="230" height="123" as="geometry" />
+          <mxGeometry x="3400" y="-1737.5" width="230" height="123" as="geometry" />
         </mxCell>
         <mxCell id="mDaOjsrQItgkXir7TWhE-6" value="คนเดินไปเดินมา&lt;br&gt;- สุ่มเกิดจาก land แล้วเดินจุดเริ่มไปจุดตรงข้าม&lt;br&gt;สุ่มเกิดทุก 3 นาที&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3410" y="-1753" width="230" height="123" as="geometry" />
+          <mxGeometry x="3400" y="-1607.5" width="230" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="mDaOjsrQItgkXir7TWhE-7" value="Food&#xa;fulfullness ค่าความอิ่ม&#xa;duration ระยะเวลา&#xa;" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4320" y="-1455" width="810" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mDaOjsrQItgkXir7TWhE-8" value="Costume&#xa;fulfullness ค่าความอิ่ม&#xa;duration ระยะเวลา&#xa;" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4320" y="-1400" width="810" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
