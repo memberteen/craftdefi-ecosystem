@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-16T09:22:29.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9FEXhEkq8mcIS1r2cvvm" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-16T09:29:47.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="nWBNhXB6I4rcvFpIUndO" version="20.2.3" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
     <mxGraphModel dx="8788" dy="6110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -5084,10 +5084,10 @@
         <mxCell id="CDVByA6ChOzaJjAIiBHo-30" value="Item Detail (Tools,Equipment,Food,Decoration)" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
           <mxGeometry y="26" width="420" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zE5jJygX4ydAp_yVo81u-100" value="Worker (ค่าความหิว -&gt; เพิ่มจาก food ลดจากทำงาน (Time), skill())" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
+        <mxCell id="zE5jJygX4ydAp_yVo81u-100" value="Worker (ค่าความหิว -&gt; เพิ่มจาก food ลดจากทำงาน (Time), skill())" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;fillColor=#d5e8d4;strokeColor=#82b366;" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
           <mxGeometry y="52" width="420" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CDVByA6ChOzaJjAIiBHo-28" value="Hire ()" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
+        <mxCell id="CDVByA6ChOzaJjAIiBHo-28" value="Hire ()" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;fillColor=#d5e8d4;strokeColor=#82b366;" parent="zE5jJygX4ydAp_yVo81u-96" vertex="1">
           <mxGeometry y="78" width="420" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mDaOjsrQItgkXir7TWhE-1" value="Placement" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zE5jJygX4ydAp_yVo81u-96">
