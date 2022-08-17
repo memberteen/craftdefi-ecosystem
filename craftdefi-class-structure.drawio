@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T23:48:03.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="R8gz3DmxdqIp1WgUNw_7" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T23:48:23.111Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="evXxV6cbDZjWbe0D6jOc" version="20.2.4" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="11807" dy="7583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="8324" dy="5838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4801,7 +4801,7 @@
           <mxGeometry y="208" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NBg4TM5Fdeh_CKciyJGs-6" value="To Do List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#cce5ff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="-3513" width="420" height="338" as="geometry" />
+          <mxGeometry x="1460" y="-3513" width="420" height="364" as="geometry" />
         </mxCell>
         <mxCell id="NBg4TM5Fdeh_CKciyJGs-7" value="ทำ transaction content proceed duration" style="text;strokeColor=#82b366;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;fontStyle=4" parent="NBg4TM5Fdeh_CKciyJGs-6" vertex="1">
           <mxGeometry y="26" width="420" height="26" as="geometry" />
@@ -4836,8 +4836,11 @@
         <mxCell id="1U0_FT6AGNj4nvgHw6I2-110" value="Equipment (tool,costume) State" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;fillColor=#d5e8d4;strokeColor=#82b366;" parent="NBg4TM5Fdeh_CKciyJGs-6" vertex="1">
           <mxGeometry y="286" width="420" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1U0_FT6AGNj4nvgHw6I2-112" value="city model and state" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;" parent="NBg4TM5Fdeh_CKciyJGs-6" vertex="1">
+        <mxCell id="WVIZ6kVGXdDippmQWMMP-226" value="Character" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="NBg4TM5Fdeh_CKciyJGs-6">
           <mxGeometry y="312" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1U0_FT6AGNj4nvgHw6I2-112" value="city model and state" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4;" parent="NBg4TM5Fdeh_CKciyJGs-6" vertex="1">
+          <mxGeometry y="338" width="420" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zE5jJygX4ydAp_yVo81u-1" value="D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;labelBorderColor=none;labelBackgroundColor=none;movable=1;editable=1;resizable=1;resizeHeight=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="-2940" y="-1063.33" width="380" height="213.33" as="geometry" />
