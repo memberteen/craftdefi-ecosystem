@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T03:29:48.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="CuVYd3_iFWsHxRFw2zRM" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-26T03:38:54.977Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="RVpHDvn9Y7_8nby5c_SG" version="20.2.7" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="8838" dy="6145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="8648" dy="6042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5476,7 +5476,7 @@
           <mxGeometry y="52" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WVIZ6kVGXdDippmQWMMP-137" value="PropItemStateMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-5102.5" y="-568" width="210" height="130" as="geometry" />
+          <mxGeometry x="-5102.5" y="-568" width="210" height="104" as="geometry" />
         </mxCell>
         <mxCell id="WVIZ6kVGXdDippmQWMMP-138" value="+ placementSize: PlacementSize" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="WVIZ6kVGXdDippmQWMMP-137" vertex="1">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
@@ -5484,11 +5484,8 @@
         <mxCell id="WVIZ6kVGXdDippmQWMMP-139" value="+ popularity:   float&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="WVIZ6kVGXdDippmQWMMP-137" vertex="1">
           <mxGeometry y="52" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WVIZ6kVGXdDippmQWMMP-158" value="+ onPlace:   bool&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="WVIZ6kVGXdDippmQWMMP-137" vertex="1">
-          <mxGeometry y="78" width="210" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="WVIZ6kVGXdDippmQWMMP-159" value="+ placementInfo: PlacementInfo" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="WVIZ6kVGXdDippmQWMMP-137" vertex="1">
-          <mxGeometry y="104" width="210" height="26" as="geometry" />
+          <mxGeometry y="78" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WVIZ6kVGXdDippmQWMMP-140" value="ItemStateMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-5140" y="-797" width="210" height="130" as="geometry" />
