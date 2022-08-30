@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T05:31:30.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="-I6Fsyz_kfCrnMyNOka4" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T11:11:22.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WYc9evyHPFaHv7N5humr" version="20.2.7" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="8541" dy="5984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="8609" dy="6021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -661,19 +661,19 @@
           <mxGeometry y="104" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="K2pGJVHsBjdbyx04ZNq6-89" value="MachineBuildingStatMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-5240" y="1344.75" width="190" height="130" as="geometry" />
+          <mxGeometry x="-5240" y="1344.75" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="1U0_FT6AGNj4nvgHw6I2-83" value="+ placementBuildingState: PlacementBuildingState" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="K2pGJVHsBjdbyx04ZNq6-89" vertex="1">
-          <mxGeometry y="26" width="190" height="26" as="geometry" />
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1U0_FT6AGNj4nvgHw6I2-84" value="+ factoryID: ObjectID&lt; FactoryBuilding&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="K2pGJVHsBjdbyx04ZNq6-89" vertex="1">
-          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        <mxCell id="1U0_FT6AGNj4nvgHw6I2-84" value="+ buildingStateID: ObjectID&lt; BuildingState&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="K2pGJVHsBjdbyx04ZNq6-89" vertex="1">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sXROqaeM97fEZQRLgdrV-4" value="+ isWorking: bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="K2pGJVHsBjdbyx04ZNq6-89">
-          <mxGeometry y="78" width="190" height="26" as="geometry" />
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sXROqaeM97fEZQRLgdrV-5" value="+ onPlace:   bool&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="K2pGJVHsBjdbyx04ZNq6-89">
-          <mxGeometry y="104" width="190" height="26" as="geometry" />
+          <mxGeometry y="104" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="K2pGJVHsBjdbyx04ZNq6-101" value="UtillityBuildingStatMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-5010" y="1344.75" width="210" height="234" as="geometry" />
