@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T04:44:31.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JRIOfwW5XV_9ivNXVWD2" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T04:52:01.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="s9glCQIHqPxSmubPajuA" version="20.2.8" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
     <mxGraphModel dx="8468" dy="5933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -2521,7 +2521,7 @@
         <mxCell id="aE_s-oMYWNomCJ3wsJlq-7" value="+ count: int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="aE_s-oMYWNomCJ3wsJlq-3" vertex="1">
           <mxGeometry y="78" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="JI5v-f1Xg4huuRIK_SVm-1" value="+ description: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="aE_s-oMYWNomCJ3wsJlq-3" vertex="1">
+        <mxCell id="JI5v-f1Xg4huuRIK_SVm-1" value="+ description: []Description" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="aE_s-oMYWNomCJ3wsJlq-3" vertex="1">
           <mxGeometry y="104" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="aE_s-oMYWNomCJ3wsJlq-10" value="GroupProductMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1">
