@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T04:44:06.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0Xqv3Q8aWaXfUMYJSPDy" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T04:44:31.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JRIOfwW5XV_9ivNXVWD2" version="20.2.8" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
     <mxGraphModel dx="8468" dy="5933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -4518,7 +4518,7 @@
           <mxGeometry y="182" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pz39oAZ_Ym1aXUeTcPic-1" value="CrafthouseBuilding" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#cce5ff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="605" y="71.13" width="245" height="312" as="geometry" />
+          <mxGeometry x="605" y="71.13" width="245" height="338" as="geometry" />
         </mxCell>
         <mxCell id="pz39oAZ_Ym1aXUeTcPic-2" value="id: ObjectID" style="text;strokeColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="pz39oAZ_Ym1aXUeTcPic-1" vertex="1">
           <mxGeometry y="26" width="245" height="26" as="geometry" />
@@ -4547,11 +4547,14 @@
         <mxCell id="pz39oAZ_Ym1aXUeTcPic-9" value="cardImageID: ObjectID&lt;XFile&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="pz39oAZ_Ym1aXUeTcPic-1" vertex="1">
           <mxGeometry y="234" width="245" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CDVByA6ChOzaJjAIiBHo-27" value="slots: []CrafthouseItemSlot" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="pz39oAZ_Ym1aXUeTcPic-1" vertex="1">
+        <mxCell id="CDVByA6ChOzaJjAIiBHo-27" value="slots: []CrafthouseSlot" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="pz39oAZ_Ym1aXUeTcPic-1" vertex="1">
           <mxGeometry y="260" width="245" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CDVByA6ChOzaJjAIiBHo-46" value="stateOwners: []StateOwner" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="pz39oAZ_Ym1aXUeTcPic-1" vertex="1">
+        <mxCell id="q9yIEgz20-ON2OqOa6CR-10" value="items: []CrafthouseItem" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="pz39oAZ_Ym1aXUeTcPic-1">
           <mxGeometry y="286" width="245" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CDVByA6ChOzaJjAIiBHo-46" value="stateOwners: []StateOwner" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="pz39oAZ_Ym1aXUeTcPic-1" vertex="1">
+          <mxGeometry y="312" width="245" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VV3bFZMLuvkVp5d_GXQF-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-1195.62" y="637.02" width="580" height="684.96" as="geometry" />
