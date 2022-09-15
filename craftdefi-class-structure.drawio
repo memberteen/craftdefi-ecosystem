@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T05:59:22.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="LU9hveVtZ-xHM1teUVz-" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-15T06:09:52.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zmQTwdUtZ54X22AS_WrF" version="20.3.0" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
     <mxGraphModel dx="8488" dy="5944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -5093,37 +5093,14 @@
         <mxCell id="1U0_FT6AGNj4nvgHw6I2-44" value="TraitWorkerProperty" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1817.5" y="-2848" width="250" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="1U0_FT6AGNj4nvgHw6I2-45" value="+  minProperty: StatProperty" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-44" vertex="1">
+        <mxCell id="1U0_FT6AGNj4nvgHw6I2-45" value="+  minProgression: StatProgression" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-44" vertex="1">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1U0_FT6AGNj4nvgHw6I2-56" value="+  maxProperty: StatProperty" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-44" vertex="1">
+        <mxCell id="1U0_FT6AGNj4nvgHw6I2-56" value="+  maxProgression: StatProgression" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-44" vertex="1">
           <mxGeometry y="52" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1U0_FT6AGNj4nvgHw6I2-46" value="+ traitWorkerType: TraitWorkerType" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-44" vertex="1">
+        <mxCell id="1U0_FT6AGNj4nvgHw6I2-46" value="+ stat:  string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-44" vertex="1">
           <mxGeometry y="78" width="250" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1U0_FT6AGNj4nvgHw6I2-47" value="TraitWorkerType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1817.5" y="-2705" width="220" height="186" as="geometry">
-            <mxRectangle x="1310" y="-605" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1U0_FT6AGNj4nvgHw6I2-49" value="+ ExtendEmploymentContract" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-47" vertex="1">
-          <mxGeometry y="30" width="220" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1U0_FT6AGNj4nvgHw6I2-50" value="+ SuccessRate" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-47" vertex="1">
-          <mxGeometry y="56" width="220" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1U0_FT6AGNj4nvgHw6I2-48" value="+ Power" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-47" vertex="1">
-          <mxGeometry y="82" width="220" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1U0_FT6AGNj4nvgHw6I2-54" value="+ MaxPower" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-47" vertex="1">
-          <mxGeometry y="108" width="220" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1U0_FT6AGNj4nvgHw6I2-51" value="+ Energy" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-47" vertex="1">
-          <mxGeometry y="134" width="220" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1U0_FT6AGNj4nvgHw6I2-55" value="+ MaxEnergy" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-47" vertex="1">
-          <mxGeometry y="160" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="1U0_FT6AGNj4nvgHw6I2-59" value="&lt;span style=&quot;text-align: center;&quot;&gt;Worker&amp;nbsp;&lt;/span&gt;Stat&lt;br&gt;[&lt;br&gt;&amp;nbsp; { Power&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;}&lt;br&gt;&amp;nbsp; { Energy }&lt;br&gt;&amp;nbsp; { ContractPeriod }&lt;br&gt;&amp;nbsp; { StayPeriod }&lt;br&gt;]" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="1" vertex="1">
           <mxGeometry x="1125" y="-2888" width="175" height="100" as="geometry" />
