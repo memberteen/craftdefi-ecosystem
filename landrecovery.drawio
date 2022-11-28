@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T10:48:50.506Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="zaRdyGsL5cRXC9ZIp0gs" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T10:55:50.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XjC9zRyfGMbZFWoruEjC" version="20.6.0" type="github">
   <diagram id="S6TGcgXIX14z-mwGb8YN" name="Page-1">
     <mxGraphModel dx="981" dy="1626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -638,11 +638,14 @@
         <mxCell id="UmmVMWK3bgUvi2LNbrQR-26" value="&lt;span style=&quot;font-size: 4px;&quot;&gt;Fuel C&lt;/span&gt;onsumption =" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=4;" parent="1" vertex="1">
           <mxGeometry x="3296" y="1040" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="B4FZJkeF_Os4WZugSLAm-29" value="&lt;span style=&quot;font-size: 4px;&quot;&gt;Clamp((CarbonPoint/Max)-0.5,0,1)&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=4;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="B4FZJkeF_Os4WZugSLAm-29" value="&lt;span style=&quot;font-size: 4px;&quot;&gt;Clamp((CarbonPoint/Max)-0.5,0,1)&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=4;fillColor=#f8cecc;strokeColor=#b85450;spacingTop=1;" vertex="1" parent="1">
           <mxGeometry x="3160" y="1091" width="85.5" height="18" as="geometry" />
         </mxCell>
         <mxCell id="B4FZJkeF_Os4WZugSLAm-30" value="CarbonEffect =" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=4;" vertex="1" parent="1">
           <mxGeometry x="3168" y="1090" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B4FZJkeF_Os4WZugSLAm-31" value="Game Stat Machanic" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=15;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2790" y="875" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
