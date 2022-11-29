@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T09:10:49.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="2hxs81uZC7xmZOXK3ZqV" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T15:56:38.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Up6sJG1hiiCPmpyVh-Ku" version="20.6.0" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="10173" dy="7496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="13240" dy="9140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1426,7 +1426,7 @@
         <mxCell id="0JVoSKykdWv4RQg_PXZD-134" value="+ GameScoreCompetition = 3" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="0JVoSKykdWv4RQg_PXZD-130" vertex="1">
           <mxGeometry y="104" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="EIZkGvoJi3HqDrntJDhe-1" value="+ LevelProgression = 4" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="0JVoSKykdWv4RQg_PXZD-130">
+        <mxCell id="EIZkGvoJi3HqDrntJDhe-1" value="+ LevelProgression = 4" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="0JVoSKykdWv4RQg_PXZD-130" vertex="1">
           <mxGeometry y="130" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0JVoSKykdWv4RQg_PXZD-135" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelBorderColor=none;labelBackgroundColor=none;movable=1;editable=1;resizable=1;resizeHeight=1;connectable=0;" parent="1" vertex="1">
@@ -4170,7 +4170,7 @@
         <mxCell id="QHQ25EoZhCVYWeslW7Zb-119" value="BuildingLog" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="-7253.25" y="-5370" width="190" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="QHQ25EoZhCVYWeslW7Zb-120" value="amountStats: []AmountStat" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;" parent="QHQ25EoZhCVYWeslW7Zb-119" vertex="1">
+        <mxCell id="QHQ25EoZhCVYWeslW7Zb-120" value="amountStats: []StatProperty" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;" parent="QHQ25EoZhCVYWeslW7Zb-119" vertex="1">
           <mxGeometry y="30" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHQ25EoZhCVYWeslW7Zb-121" value="code: BuildingLogCode" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;glass=0;" parent="QHQ25EoZhCVYWeslW7Zb-119" vertex="1">
@@ -5930,6 +5930,24 @@
         </mxCell>
         <mxCell id="QiQE3MUvJOPEKD3iizCR-2" value="+ progress: []ProgressionReward" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="QiQE3MUvJOPEKD3iizCR-1" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqiw-kxJKkJiK_6pQKs0-1" value="Factory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7604.75" y="-5920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqiw-kxJKkJiK_6pQKs0-2" value="Machine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7584.25" y="-5970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqiw-kxJKkJiK_6pQKs0-3" value="Machine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7455.75" y="-5960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqiw-kxJKkJiK_6pQKs0-4" value="Utility Building&amp;nbsp;&lt;br&gt;+10% Power" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7584.25" y="-5850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqiw-kxJKkJiK_6pQKs0-5" value="Disaster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7746.75" y="-6010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqiw-kxJKkJiK_6pQKs0-6" value="PlacementTransaction&lt;br&gt;&lt;br&gt;BuildingID&lt;br&gt;TotalPower" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-7240" y="-5870" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
