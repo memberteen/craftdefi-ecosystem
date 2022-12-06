@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T06:32:40.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cNTop2QyhbAvAziAC2M9" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T09:23:25.762Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="qM0AsnBXXjQRwHuqLrJe" version="20.6.0" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="8972" dy="7113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="9188" dy="7348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -544,7 +544,7 @@
           <mxGeometry y="208" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GdFOQ4hPlMLtPuqqX4WH-349" value="Stat" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="12" y="59.13" width="358" height="442" as="geometry" />
+          <mxGeometry x="12" y="59.13" width="358" height="468" as="geometry" />
         </mxCell>
         <mxCell id="hETnAcGZNiWj8ebsv-aZ-4" value="+ STAR= &quot;st&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="GdFOQ4hPlMLtPuqqX4WH-349" vertex="1">
           <mxGeometry y="26" width="358" height="26" as="geometry" />
@@ -576,23 +576,26 @@
         <mxCell id="hETnAcGZNiWj8ebsv-aZ-1" value="+ SUCCESSRATE= &quot;sr&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="GdFOQ4hPlMLtPuqqX4WH-349" vertex="1">
           <mxGeometry y="260" width="358" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hETnAcGZNiWj8ebsv-aZ-2" value="+ WORKER_ENERGY= &quot;we&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="GdFOQ4hPlMLtPuqqX4WH-349" vertex="1">
+        <mxCell id="hETnAcGZNiWj8ebsv-aZ-2" value="+ CRAFTMAN_ENERGY= &quot;cm_e&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="GdFOQ4hPlMLtPuqqX4WH-349" vertex="1">
           <mxGeometry y="286" width="358" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hETnAcGZNiWj8ebsv-aZ-3" value="+ WORKER_CONTRACTPERIOD= &quot;wcp&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="GdFOQ4hPlMLtPuqqX4WH-349" vertex="1">
+        <mxCell id="74eLHBUl7YlknXL-Is7z-52" value="+ CRAFTMAN_ENERGY_BURNRATE= &quot;cm_br&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="GdFOQ4hPlMLtPuqqX4WH-349">
           <mxGeometry y="312" width="358" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="74eLHBUl7YlknXL-Is7z-1" value="+ CARBONPOINT = &quot;cbp&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="GdFOQ4hPlMLtPuqqX4WH-349">
+        <mxCell id="hETnAcGZNiWj8ebsv-aZ-3" value="+ CRAFTMAN_CONTRACTPERIOD= &quot;cm_cp&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="GdFOQ4hPlMLtPuqqX4WH-349" vertex="1">
           <mxGeometry y="338" width="358" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="74eLHBUl7YlknXL-Is7z-2" value="+ CARBON_EMISSION_RATE = &quot;cbemr&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="GdFOQ4hPlMLtPuqqX4WH-349">
+        <mxCell id="74eLHBUl7YlknXL-Is7z-1" value="+ CARBONPOINT = &quot;cbp&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="GdFOQ4hPlMLtPuqqX4WH-349">
           <mxGeometry y="364" width="358" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="74eLHBUl7YlknXL-Is7z-48" value="+ ITEM_EXPIRED_PERIOD = &quot;item_exp&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="GdFOQ4hPlMLtPuqqX4WH-349">
+        <mxCell id="74eLHBUl7YlknXL-Is7z-2" value="+ CARBON_EMISSION_RATE = &quot;cbemr&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="GdFOQ4hPlMLtPuqqX4WH-349">
           <mxGeometry y="390" width="358" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="74eLHBUl7YlknXL-Is7z-50" value="+ POPULARITY = &quot;popularity&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="GdFOQ4hPlMLtPuqqX4WH-349">
+        <mxCell id="74eLHBUl7YlknXL-Is7z-48" value="+ ITEM_EXPIRED_PERIOD = &quot;item_exp&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="GdFOQ4hPlMLtPuqqX4WH-349">
           <mxGeometry y="416" width="358" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="74eLHBUl7YlknXL-Is7z-50" value="+ POPULARITY = &quot;popularity&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="GdFOQ4hPlMLtPuqqX4WH-349">
+          <mxGeometry y="442" width="358" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GdFOQ4hPlMLtPuqqX4WH-356" value="Factory Stat&lt;br&gt;[&lt;br&gt;&amp;nbsp; { Power&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;}&lt;br&gt;&amp;nbsp; { Durability&amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; { Capacity&amp;nbsp; &amp;nbsp; &amp;nbsp;}&lt;br&gt;&amp;nbsp; { Exp.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br&gt;]" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="1" vertex="1">
           <mxGeometry x="480" y="-707.87" width="100" height="110" as="geometry" />
@@ -2506,7 +2509,12 @@
           <mxGeometry y="52" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="aE_s-oMYWNomCJ3wsJlq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="aE_s-oMYWNomCJ3wsJlq-28" target="aE_s-oMYWNomCJ3wsJlq-31" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="-2740" />
+              <mxPoint x="100" y="-2607" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="c4qvs2YjDzn6GjIhDprr-6" value="UserItemStorage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#cce5ff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-5614" y="-952.5000000000001" width="240" height="104" as="geometry" />
@@ -5562,7 +5570,7 @@
           <mxGeometry y="78" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wE-cYowLVslKFnMTfeP_-31" value="GroundType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="11" y="520" width="358" height="104" as="geometry" />
+          <mxGeometry x="5" y="586" width="358" height="104" as="geometry" />
         </mxCell>
         <mxCell id="wE-cYowLVslKFnMTfeP_-32" value="+ Ground= &quot;ground&quot;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="wE-cYowLVslKFnMTfeP_-31" vertex="1">
           <mxGeometry y="26" width="358" height="26" as="geometry" />
