@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-14T20:52:07.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="8KfescxlbcJlbO0kszoH" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-14T21:41:01.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="YT6BM48qfMLW6uIuKxu6" version="20.6.0" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="8327" dy="6296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="7677" dy="5957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5487,7 +5487,7 @@
         <mxCell id="WUDJLRXO1SmVBMWQo2cW-54" value="description: []Description" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="WUDJLRXO1SmVBMWQo2cW-51">
           <mxGeometry y="78" width="295" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WUDJLRXO1SmVBMWQo2cW-57" value="imageID: Asset" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="WUDJLRXO1SmVBMWQo2cW-51">
+        <mxCell id="WUDJLRXO1SmVBMWQo2cW-57" value="imageAsset: Asset" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="WUDJLRXO1SmVBMWQo2cW-51">
           <mxGeometry y="104" width="295" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WUDJLRXO1SmVBMWQo2cW-59" value="active: ActiveType" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="WUDJLRXO1SmVBMWQo2cW-51">
@@ -5517,13 +5517,13 @@
         <mxCell id="WUDJLRXO1SmVBMWQo2cW-68" value="AddressableSource" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-5614" y="-2439" width="240" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="WUDJLRXO1SmVBMWQo2cW-69" value="+ addressableType: AddressableType" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="WUDJLRXO1SmVBMWQo2cW-68">
+        <mxCell id="WUDJLRXO1SmVBMWQo2cW-69" value="+ type: AddressableType" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="WUDJLRXO1SmVBMWQo2cW-68">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WUDJLRXO1SmVBMWQo2cW-70" value="+ key:  string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="WUDJLRXO1SmVBMWQo2cW-68">
           <mxGeometry y="52" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WUDJLRXO1SmVBMWQo2cW-71" value="+ addressableTag: AddressableTag" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="WUDJLRXO1SmVBMWQo2cW-68">
+        <mxCell id="WUDJLRXO1SmVBMWQo2cW-71" value="+ tag: AddressableTag" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="WUDJLRXO1SmVBMWQo2cW-68">
           <mxGeometry y="78" width="240" height="26" as="geometry" />
         </mxCell>
       </root>
