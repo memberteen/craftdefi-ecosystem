@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T09:57:48.277Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="3lmo4vwZh6t0xTqMyjtF" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-26T11:42:51.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xaFqZybc_Sg_0ewCKHUC" version="20.8.10" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="7403" dy="5836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="7492" dy="5886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5770,7 +5770,7 @@
         <mxCell id="jnlYSN5T-mGT1oeLXi3L-15" value="+ cost: []ProductMeta" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="jnlYSN5T-mGT1oeLXi3L-7">
           <mxGeometry y="130" width="295.25" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jnlYSN5T-mGT1oeLXi3L-21" value="+ workState: WorkState" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="jnlYSN5T-mGT1oeLXi3L-7">
+        <mxCell id="jnlYSN5T-mGT1oeLXi3L-24" value="+ verify: bool" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="jnlYSN5T-mGT1oeLXi3L-7">
           <mxGeometry y="156" width="295.25" height="26" as="geometry" />
         </mxCell>
       </root>
