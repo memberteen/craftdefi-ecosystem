@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T22:54:11.133Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="2YVC0io6dvxL8eIK3mgm" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T22:54:44.894Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="51yOS2BrP0n1haMOFNNe" version="20.8.23" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
     <mxGraphModel dx="7903" dy="6093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -4746,31 +4746,40 @@
           <mxGeometry y="156" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZIpmcBK4NEgFk_bJUDES-7" value="ResourceInventoryBehaviorMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-2905" y="-2352" width="220" height="78" as="geometry" />
+          <mxGeometry x="-2905" y="-2352" width="220" height="104" as="geometry" />
         </mxCell>
         <mxCell id="ZIpmcBK4NEgFk_bJUDES-8" value="+ resourceID: ObjectID&lt;Resource&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-7" vertex="1">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZIpmcBK4NEgFk_bJUDES-10" value="+ stateOwner: StateOwnerMeta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-7" vertex="1">
+        <mxCell id="ZIpmcBK4NEgFk_bJUDES-10" value="+ stateOwner: *StateOwnerMeta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-7" vertex="1">
           <mxGeometry y="52" width="220" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="y0UTS88_c1-k7AHcLi37-4" value="+ collectMode: CollectMode" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="ZIpmcBK4NEgFk_bJUDES-7">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="ZIpmcBK4NEgFk_bJUDES-11" value="SendItemRequestBehaviorMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-2640" y="-2472" width="220" height="78" as="geometry" />
+          <mxGeometry x="-2640" y="-2472" width="220" height="104" as="geometry" />
         </mxCell>
         <mxCell id="ZIpmcBK4NEgFk_bJUDES-12" value="+ itemID: ObjectID&lt;Item&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-11" vertex="1">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZIpmcBK4NEgFk_bJUDES-14" value="+ stateOwner: StateOwnerMeta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-11" vertex="1">
+        <mxCell id="ZIpmcBK4NEgFk_bJUDES-14" value="+ stateOwner: *StateOwnerMeta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-11" vertex="1">
           <mxGeometry y="52" width="220" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="y0UTS88_c1-k7AHcLi37-2" value="+ collectMode: CollectMode" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="ZIpmcBK4NEgFk_bJUDES-11">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="ZIpmcBK4NEgFk_bJUDES-15" value="SendResourceRequestBehaviorMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-2640" y="-2352" width="220" height="78" as="geometry" />
+          <mxGeometry x="-2640" y="-2352" width="220" height="104" as="geometry" />
         </mxCell>
         <mxCell id="ZIpmcBK4NEgFk_bJUDES-16" value="+ itemID: ObjectID&lt;Item&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-15" vertex="1">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZIpmcBK4NEgFk_bJUDES-18" value="+ stateOwner: StateOwnerMeta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-15" vertex="1">
+        <mxCell id="ZIpmcBK4NEgFk_bJUDES-18" value="+ stateOwner: *StateOwnerMeta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-15" vertex="1">
           <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="y0UTS88_c1-k7AHcLi37-3" value="+ collectMode: CollectMode" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="ZIpmcBK4NEgFk_bJUDES-15">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="aDVvgVESzUdbCAC1FcYz-1" value="NPCType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-1465" y="-2644" width="260" height="156" as="geometry" />
@@ -4887,7 +4896,7 @@
           <mxGeometry y="78" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nstSEqEmNtgeld31y5Ti-2" value="ConstructBehaviorMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-2905" y="-2248" width="220" height="78" as="geometry" />
+          <mxGeometry x="-2905" y="-2224" width="220" height="78" as="geometry" />
         </mxCell>
         <mxCell id="nstSEqEmNtgeld31y5Ti-3" value="+ buildingType: BuildingType" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="nstSEqEmNtgeld31y5Ti-2" vertex="1">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
