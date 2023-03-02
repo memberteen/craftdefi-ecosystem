@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T04:22:32.718Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="AyJZTjvAAxOt16CU7ssi" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T22:51:55.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="WnCPOL70euAJqNB5kOnB" version="20.8.23" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="8234" dy="6271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="7903" dy="6093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1142,7 +1142,7 @@
           <mxGeometry y="208" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0JVoSKykdWv4RQg_PXZD-53" value="ItemInventoryBehaviorMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-2905" y="-2472" width="220" height="78" as="geometry" />
+          <mxGeometry x="-2905" y="-2472" width="220" height="104" as="geometry" />
         </mxCell>
         <mxCell id="0JVoSKykdWv4RQg_PXZD-54" value="+ itemID: ObjectID&lt;Item&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="0JVoSKykdWv4RQg_PXZD-53" vertex="1">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
@@ -1150,8 +1150,11 @@
         <mxCell id="0JVoSKykdWv4RQg_PXZD-57" value="+ stateOwner: StateOwnerMeta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="0JVoSKykdWv4RQg_PXZD-53" vertex="1">
           <mxGeometry y="52" width="220" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="y0UTS88_c1-k7AHcLi37-1" value="+ collectMode: CollectMode" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="0JVoSKykdWv4RQg_PXZD-53">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="0JVoSKykdWv4RQg_PXZD-81" value="CollectMode" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-2201" y="-2718" width="260" height="78" as="geometry" />
+          <mxGeometry x="-2340.56" y="-2709.5" width="260" height="78" as="geometry" />
         </mxCell>
         <mxCell id="0JVoSKykdWv4RQg_PXZD-82" value="+ Snapshot" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="0JVoSKykdWv4RQg_PXZD-81" vertex="1">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -4632,7 +4635,7 @@
         <mxCell id="wE-cYowLVslKFnMTfeP_-33" value="+ Water= 2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="wE-cYowLVslKFnMTfeP_-31" vertex="1">
           <mxGeometry y="78" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CpjCWw7hNLaozizPxZQt-1" value="+ Occupied= 99" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="wE-cYowLVslKFnMTfeP_-31">
+        <mxCell id="CpjCWw7hNLaozizPxZQt-1" value="+ Occupied= 99" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="wE-cYowLVslKFnMTfeP_-31" vertex="1">
           <mxGeometry y="104" width="360" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tH_w8oGnwoKQcHEgfwkR-1" value="LandStateMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1">
