@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T08:41:17.533Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="RBxVa7RVdH89xVp-oeeT" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-17T08:42:18.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="LkHbJ_AMMgLDpP-IQdPB" version="21.0.6" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
     <mxGraphModel dx="7903" dy="6093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -2275,10 +2275,10 @@
         <mxCell id="KUq4gp1iA8s28BgrVQhs-8" value="conversationDone: NPCConversation" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="tGYFNsgcQ-GmWtFEvVvz-219" vertex="1">
           <mxGeometry y="182" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="tGYFNsgcQ-GmWtFEvVvz-242" value="acceptFrom: ObjectID&lt;NPC&gt;" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="tGYFNsgcQ-GmWtFEvVvz-219" vertex="1">
+        <mxCell id="tGYFNsgcQ-GmWtFEvVvz-242" value="acceptFrom: NPCQuestUnit" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="tGYFNsgcQ-GmWtFEvVvz-219" vertex="1">
           <mxGeometry y="208" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7CohCtVM2aRijadAAIFL-1" value="sendTo: ObjectID&lt;NPC&gt;" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="tGYFNsgcQ-GmWtFEvVvz-219">
+        <mxCell id="7CohCtVM2aRijadAAIFL-1" value="sendTo: NPCQuestUnit" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="tGYFNsgcQ-GmWtFEvVvz-219">
           <mxGeometry y="234" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tGYFNsgcQ-GmWtFEvVvz-243" value="rewards: []GroupProductMeta" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="tGYFNsgcQ-GmWtFEvVvz-219" vertex="1">
