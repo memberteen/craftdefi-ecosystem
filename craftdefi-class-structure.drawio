@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T03:09:43.441Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="AobRpj7pC9FoPsZCzTRM" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T04:37:19.565Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MtwgJKj6PaNzKIw6pVds" version="21.3.7" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="7994" dy="6041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="1" shadow="0">
+    <mxGraphModel dx="7634" dy="7111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3704,7 +3704,7 @@
           <mxGeometry x="1650" y="-3037" width="350" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1U0_FT6AGNj4nvgHw6I2-36" value="CraftmanTrait" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1671.5" y="-2819" width="262.5" height="234" as="geometry" />
+          <mxGeometry x="1671.5" y="-2819" width="262.5" height="208" as="geometry" />
         </mxCell>
         <mxCell id="1U0_FT6AGNj4nvgHw6I2-37" value="+ id: ObjectID" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-36" vertex="1">
           <mxGeometry y="26" width="262.5" height="26" as="geometry" />
@@ -3726,9 +3726,6 @@
         </mxCell>
         <mxCell id="KNjlxvfHAxGRcQcmgwI3-1" value="+ active: ActiveType" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-36" vertex="1">
           <mxGeometry y="182" width="262.5" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="hETnAcGZNiWj8ebsv-aZ-5" value="+ rarity: Rarity" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="1U0_FT6AGNj4nvgHw6I2-36" vertex="1">
-          <mxGeometry y="208" width="262.5" height="26" as="geometry" />
         </mxCell>
         <mxCell id="1U0_FT6AGNj4nvgHw6I2-59" value="&lt;span style=&quot;text-align: center;&quot;&gt;Worker&amp;nbsp;&lt;/span&gt;Stat&lt;br&gt;[&lt;br&gt;&amp;nbsp; { Power&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;}&lt;br&gt;&amp;nbsp; { WORKER_Energy }&lt;br&gt;&amp;nbsp; { WORKER_CONTRACTPERIOD}&lt;br&gt;&amp;nbsp; { StayPeriod }&lt;br&gt;]" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="1" vertex="1">
           <mxGeometry x="1305" y="-2881" width="225" height="100" as="geometry" />
