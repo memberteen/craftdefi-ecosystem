@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T15:14:15.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ENc0DVZr_5jCk8PJCaiZ" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T07:55:02.551Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Kjx6YfArZZ0gxlX1BUUC" version="21.6.8" type="github">
   <diagram id="ZeNOe9PrIsQSqItN8kcK" name="Page-1">
-    <mxGraphModel dx="3560" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2557" dy="2496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -282,7 +282,7 @@
         <mxCell id="YI_k24LvPZSHAzhyWT9z-5" value="+Mint(&#xa;    bytes32 indexed payment_signature: ObjectID&lt;PaymentTransaction&gt;,&#xa;    address indexed user,&#xa;    address[] resources,&#xa;    uint256[]  resource_amounts,&#xa;    address[] materials,&#xa;    uint256[]  material_amounts&#xa;): method" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="3xw77zuxon-itHDHkJrM-64" vertex="1">
           <mxGeometry y="160" width="425" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="3xw77zuxon-itHDHkJrM-72" value="Payment Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="3xw77zuxon-itHDHkJrM-72" value="Blockchain Payment Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-380" y="64.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3xw77zuxon-itHDHkJrM-73" value="Use Case" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=1;fillStyle=cross-hatch;fontSize=15;strokeColor=default;fillColor=default;gradientColor=none;gradientDirection=north;" parent="1" vertex="1">
