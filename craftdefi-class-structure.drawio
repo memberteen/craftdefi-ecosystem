@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T12:02:53.313Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="GDlpA2PIsglkfUdvy4N_" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T18:45:57.902Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="UUd1nSztPtleiCGKTLtw" version="21.7.4" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="7394" dy="7105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="1" shadow="0">
+    <mxGraphModel dx="8234" dy="6265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4625,7 +4625,7 @@
           <mxGeometry y="104" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZIpmcBK4NEgFk_bJUDES-11" value="SendItemRequestBehaviorMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-2640" y="-2472" width="220" height="104" as="geometry" />
+          <mxGeometry x="-2640" y="-2472" width="220" height="78" as="geometry" />
         </mxCell>
         <mxCell id="ZIpmcBK4NEgFk_bJUDES-12" value="+ itemID: ObjectID&lt;Item&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-11" vertex="1">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
@@ -4633,20 +4633,14 @@
         <mxCell id="ZIpmcBK4NEgFk_bJUDES-14" value="+ stateOwner: *StateOwnerMeta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-11" vertex="1">
           <mxGeometry y="52" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="4K56foGoqGRBLVrJ_owT-25" value="+ rarity: Rarity" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-11" vertex="1">
-          <mxGeometry y="78" width="220" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="ZIpmcBK4NEgFk_bJUDES-15" value="SendResourceRequestBehaviorMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-2640" y="-2352" width="220" height="104" as="geometry" />
+          <mxGeometry x="-2640" y="-2352" width="220" height="78" as="geometry" />
         </mxCell>
         <mxCell id="ZIpmcBK4NEgFk_bJUDES-16" value="+ itemID: ObjectID&lt;Item&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-15" vertex="1">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZIpmcBK4NEgFk_bJUDES-18" value="+ stateOwner: *StateOwnerMeta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-15" vertex="1">
           <mxGeometry y="52" width="220" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="4K56foGoqGRBLVrJ_owT-24" value="+ rarity: Rarity" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="ZIpmcBK4NEgFk_bJUDES-15" vertex="1">
-          <mxGeometry y="78" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="aDVvgVESzUdbCAC1FcYz-1" value="NPCType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="670" y="-3011.25" width="260" height="234" as="geometry" />
