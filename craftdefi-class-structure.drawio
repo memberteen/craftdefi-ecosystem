@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T19:34:02.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="A_fEoHx66vWKX4W0wgLd" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T19:37:05.484Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="8NHKssgjXZLUdVtID35U" version="21.7.4" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="7257" dy="6088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="1" shadow="0">
+    <mxGraphModel dx="7224" dy="6046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2720,9 +2720,12 @@
           <mxGeometry x="-900" y="-992" width="630" height="612" as="geometry" />
         </mxCell>
         <mxCell id="c4qvs2YjDzn6GjIhDprr-76" value="PopularityProductMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1" collapsed="1">
-          <mxGeometry x="-830" y="-912.33" width="160" height="30" as="geometry">
+          <mxGeometry x="-830" y="-922.2" width="160" height="52.2" as="geometry">
             <mxRectangle x="-830" y="-912.33" width="190" height="52" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AU_AAKKvAlI88ryU1jSP-16" value="+ buildingIDMeta: BuildingIDMeta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="c4qvs2YjDzn6GjIhDprr-76">
+          <mxGeometry x="4.38" y="1.460000000000008" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="c4qvs2YjDzn6GjIhDprr-79" value="CarbonProductMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d79b00;" parent="1" vertex="1" collapsed="1">
           <mxGeometry x="-830" y="-847.5" width="150" height="30" as="geometry">
@@ -6119,6 +6122,9 @@
         </mxCell>
         <mxCell id="AU_AAKKvAlI88ryU1jSP-8" value="+ Remove = &quot;remove&quot;" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="AU_AAKKvAlI88ryU1jSP-6">
           <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AU_AAKKvAlI88ryU1jSP-17" value="+ permanent: bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="-896" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
