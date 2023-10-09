@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T19:32:13.885Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Bjv9-cRb_i2VGPEifFee" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T19:34:02.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="A_fEoHx66vWKX4W0wgLd" version="21.7.4" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
     <mxGraphModel dx="7257" dy="6088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="1" shadow="0">
       <root>
@@ -5628,10 +5628,13 @@
           <mxGeometry y="104" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="y0UTS88_c1-k7AHcLi37-5" value="MyPopularityRequestBahaviorMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-2390" y="-2472" width="220" height="52" as="geometry" />
+          <mxGeometry x="-2390" y="-2472" width="220" height="78" as="geometry" />
         </mxCell>
         <mxCell id="y0UTS88_c1-k7AHcLi37-7" value="+ collectMode: CollectMode" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="y0UTS88_c1-k7AHcLi37-5" vertex="1">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AU_AAKKvAlI88ryU1jSP-15" value="+ methodType: PopularityMethodType" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="y0UTS88_c1-k7AHcLi37-5">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RpwgC3F82BckR076BiZP-2" value="QuestRequestBehaviorMeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-2640" y="-2224" width="220" height="156" as="geometry" />
