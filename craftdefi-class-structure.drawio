@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T19:37:05.484Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="8NHKssgjXZLUdVtID35U" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T20:48:10.724Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="MufGUq6_TcnQX27a_ZBz" version="21.7.4" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="7224" dy="6046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="1" shadow="0">
+    <mxGraphModel dx="7366" dy="7029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2547,7 +2547,7 @@
           <mxGeometry x="-3752.5" y="-1148.87" width="265" height="119" as="geometry" />
         </mxCell>
         <mxCell id="aE_s-oMYWNomCJ3wsJlq-38" value="UserQuestState" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-3710" y="-1022.5" width="180" height="312" as="geometry" />
+          <mxGeometry x="-3710" y="-1022.5" width="180" height="338" as="geometry" />
         </mxCell>
         <mxCell id="aE_s-oMYWNomCJ3wsJlq-39" value="+ id : ObjectID" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="aE_s-oMYWNomCJ3wsJlq-38" vertex="1">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
@@ -2581,6 +2581,9 @@
         </mxCell>
         <mxCell id="qjd7G-m2oRSR2X5mYj09-39" value="+ expiredOn: *time.Time" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="aE_s-oMYWNomCJ3wsJlq-38" vertex="1">
           <mxGeometry y="286" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AU_AAKKvAlI88ryU1jSP-18" value="+ PredecessorQuestStateID: *ObjectID" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="aE_s-oMYWNomCJ3wsJlq-38">
+          <mxGeometry y="312" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="aE_s-oMYWNomCJ3wsJlq-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;labelBorderColor=none;labelBackgroundColor=none;movable=1;editable=1;resizable=1;resizeHeight=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="-4220" y="-1059" width="380" height="348" as="geometry" />
