@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T06:03:39.153Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="wgPeYOeu4JFNQE1IGCIu" version="22.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T06:56:15.283Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="dZVzdtFgYiNOVssgEszh" version="22.0.5" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
     <mxGraphModel dx="7754" dy="6033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="1" shadow="0">
       <root>
@@ -4409,10 +4409,10 @@
         <mxCell id="avNXcLs3Br0tGSQcerVq-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;labelBorderColor=none;labelBackgroundColor=none;movable=1;editable=1;resizable=1;resizeHeight=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="-2720" y="-120" width="760" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="avNXcLs3Br0tGSQcerVq-2" value="UserMerchant&lt;br style=&quot;font-size: 30px;&quot;&gt;OrderState" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=#b3b3b3;fontStyle=1;fontFamily=Comic Sans MS;fontSize=30;movable=1;" parent="1" vertex="1">
+        <mxCell id="avNXcLs3Br0tGSQcerVq-2" value="UserMerchant&lt;br style=&quot;font-size: 30px;&quot;&gt;BoardState" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=#b3b3b3;fontStyle=1;fontFamily=Comic Sans MS;fontSize=30;movable=1;" parent="1" vertex="1">
           <mxGeometry x="-2248.25" y="-161.7" width="300" height="91.02" as="geometry" />
         </mxCell>
-        <mxCell id="avNXcLs3Br0tGSQcerVq-3" value="UserMerchant&#xa;OrderBoard" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="avNXcLs3Br0tGSQcerVq-3" value="UserMerchant&#xa;BoardState" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-2295.12" y="-53.63000000000003" width="321.12" height="182" as="geometry" />
         </mxCell>
         <mxCell id="avNXcLs3Br0tGSQcerVq-4" value="id: ObjectID" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="avNXcLs3Br0tGSQcerVq-3" vertex="1">
