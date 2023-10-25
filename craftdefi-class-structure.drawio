@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T06:56:15.283Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="dZVzdtFgYiNOVssgEszh" version="22.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T09:58:52.160Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="c-gihfiI20W_FiBakbBA" version="22.0.7" type="github">
   <diagram id="gCklt3Qpi4JBZBrirVHL" name="Page-1">
-    <mxGraphModel dx="7754" dy="6033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="1" shadow="0">
+    <mxGraphModel dx="8234" dy="6265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5784,7 +5784,7 @@
         <mxCell id="pmRPxLRSVSMpuBvDbCo6-11" value="rarity: Rarity" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="pmRPxLRSVSMpuBvDbCo6-3" vertex="1">
           <mxGeometry y="182" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pmRPxLRSVSMpuBvDbCo6-10" value="placementGrid: [][]GroupType" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="pmRPxLRSVSMpuBvDbCo6-3" vertex="1">
+        <mxCell id="pmRPxLRSVSMpuBvDbCo6-10" value="placementGrid: [][]uint8" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="pmRPxLRSVSMpuBvDbCo6-3" vertex="1">
           <mxGeometry y="208" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pmRPxLRSVSMpuBvDbCo6-12" value="placementSize: PlacementSize" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="pmRPxLRSVSMpuBvDbCo6-3" vertex="1">
@@ -6135,7 +6135,7 @@
         <mxCell id="mLZo_bkdiDaRL7kZLxpd-19" value="rarity: Rarity" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="mLZo_bkdiDaRL7kZLxpd-4" vertex="1">
           <mxGeometry y="104" width="185" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="2ETeOj0qeyjO1JomKz0D-1" value="rewards: []ProduictMeta" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="mLZo_bkdiDaRL7kZLxpd-4">
+        <mxCell id="2ETeOj0qeyjO1JomKz0D-1" value="rewards: []ProduictMeta" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffffff;" parent="mLZo_bkdiDaRL7kZLxpd-4" vertex="1">
           <mxGeometry y="130" width="185" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mLZo_bkdiDaRL7kZLxpd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="avNXcLs3Br0tGSQcerVq-6" target="mLZo_bkdiDaRL7kZLxpd-4" edge="1">
